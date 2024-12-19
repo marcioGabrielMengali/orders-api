@@ -8,7 +8,9 @@
   },
   "scripts": {
     "lint": "npx eslint src/**/*.ts",
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx --watch src/server.ts",
+    "migrate": "npx knex migrate:make",
+    "migrate:latest": "npx knex migrate:latest"
   },
   "keywords": [],
   "author": "",
@@ -16,10 +18,13 @@
   "devDependencies": {
     "@types/node": "^22.10.2",
     "eslint": "^9.17.0",
+    "ts-node": "^10.9.2",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "fastify": "^5.2.0"
+    "fastify": "^5.2.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
   }
 }
