@@ -22,6 +22,6 @@
     "[css]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorTheme": "One Dark Pro Darker"
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Theme"
   }
