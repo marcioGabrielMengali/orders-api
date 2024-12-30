@@ -3,22 +3,31 @@
 - [About](#about)
     - [Node Version](#node-version)
     - [Technologies](#technologies)
+    - [How to Run](#how-to-run-the-project)
 - [Routes](#routes)
-    - [Clients](#clients)
-    - [Products](#products)
-    - [Users](#users)
     - [Orders](#orders)
+        - [Requirements](#requirements)
 
 ## About
 
 ```
 Project using nodejs and fastify for an orders api.
-The user will be able to register orders
+The user will be able to apply an CRUD for orders
 ```
 
 ### Node Version
 ```
 v22.11.0
+```
+
+### how to run the project
+1. Migrate
+```shell
+npm run migrate:latest
+```
+2. Start Server
+```shell
+npm run dev
 ```
 
 ### Technologies
@@ -32,8 +41,9 @@ v22.11.0
 
 ### Orders
 #### Requirements
-- [ ] Create Order
-- [ ] List Orders
-- [ ] List Specific Order
-- [ ] Update Order
+- [x] Create Order
+- [x] List Orders
+- [x] List Specific Order
+- [x] Update Order
+- [x] Delete Order
 
